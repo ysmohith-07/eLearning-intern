@@ -1,2 +1,2 @@
-# eLearning-inter
+# eLearning-intern
 E-Learning website
