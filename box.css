@@ -21,3 +21,16 @@
     padding: 20px 35px;
 
 }
+
+
+.boxreg{
+    color: rgb(11, 11, 11);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border: 15px;
+    border-color: rgb(0, 0, 0); 
+    border-style: double;
+    margin: 50px;
+    padding: 20px 35px;
+
+}
