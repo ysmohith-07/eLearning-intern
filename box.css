@@ -1,11 +1,10 @@
 .divi{
     /* align-items: right; */
     color: white;
-    background-color: rgb(142, 8, 165);
+    background-color:  rgb(247, 247, 41); 
     width: 500px;
     border: 15px;
-    border-color: rgb(255, 255, 255); 
-    border-color: rgb(0, 0, 0); 
+    border-color: rgb(16, 44, 156); 
     border-style: double;
     margin: 50px;
     padding: 30px 35px;
@@ -13,11 +12,11 @@
 }
 
 .boxreg{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    color: rgb(43, 79, 223);
+    background-color: rgb(247, 247, 41); 
     width: 300px;
     border: 15px;
-    border-color: rgb(0, 0, 0); 
+    border-color: rgb(16, 44, 156); 
     border-style: double;
     margin: 50px;
     padding: 20px 35px;
