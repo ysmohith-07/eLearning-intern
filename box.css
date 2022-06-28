@@ -1,6 +1,7 @@
 .divi{
+    Background-image: url("https://in.pinterest.com/pin/94997873361417965/");
     color: #000000;
-    background-color:  #ce4a7eff; 
+    background-color: rgb(164, 156, 156); 
     width: 500px;
     border: 15px;
     border-color: rgb(0, 0, 0); 
@@ -41,4 +42,10 @@
 
 button{
     margin: 15px;
+    margin-bottom: 25px;
+}
+
+.page{
+    background-image: url("https://i.pinimg.com/564x/78/1a/23/781a23423046e9797a3d2bc3915eb050.jpg");
+    background-size: cover;
 }

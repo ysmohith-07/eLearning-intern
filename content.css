@@ -1,0 +1,29 @@
+.coubox{
+    text-align: center;
+    color: #000000;
+    background-color:  rgb(209, 23, 23); 
+    min-height: 30vh;
+    width: 15vw;
+    border: 15px;
+    /* border-color: rgb(0, 0, 0); 
+    border-style: double; */
+    margin: 20px;
+    padding: 3px 35px;
+}
+
+.boxxed{
+    background-color:  rgb(203, 239, 22); 
+    height: 5vh;
+    width: 10vw;
+    border: 15px;
+    /* border-color: rgb(0, 0, 0); 
+    border-style: double; */
+    /* margin: 20px; */
+    padding: 3px 35px;
+}
+
+.headbar{
+    background-color: black;
+    color: aliceblue;
+    justify-content:space-between;
+}
