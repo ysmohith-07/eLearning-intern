@@ -1,7 +1,7 @@
 .coubox{
     text-align: center;
     color: #000000;
-    background-color:  rgb(209, 23, 23); 
+    background-color:  #d9514eff; 
     box-shadow: 0 20px 50px rgba(0, 0, 0,0.5);
     min-height: 30vh;
     width: 15vw;
@@ -17,7 +17,7 @@
 }
 
 .boxxed{
-    background-color:  rgb(203, 239, 22); 
+    background-color:  #2da8d8ff; 
     height: 5vh;
     width: 10vw;
     border: 15px;
