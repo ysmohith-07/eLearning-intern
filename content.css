@@ -1,7 +1,7 @@
 .coubox{
     text-align: center;
     color: #000000;
-    background-color:  #d9514eff; 
+    background-color:  #9a7b4d; 
     box-shadow: 0 20px 50px rgba(0, 0, 0,0.5);
     min-height: 30vh;
     width: 15vw;
@@ -10,6 +10,7 @@
     border-style: double; */
     margin: 20px;
     padding: 3px 35px;
+    border-radius: 10px;
 }
 .coubox:hover{
     transform: scale(1.1);
@@ -17,7 +18,7 @@
 }
 
 .boxxed{
-    background-color:  #2da8d8ff; 
+    background-color:  #c0c0ae; 
     height: 5vh;
     width: 10vw;
     border: 15px;
@@ -25,10 +26,53 @@
     border-style: double; */
     /* margin: 20px; */
     padding: 3px 35px;
+    border-radius: 10px;
+}
+
+.boxxed:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
 }
 
 .headbar{
-    background-color: black;
-    color: aliceblue;
+    background-color: #67512f;
+    color: #cfcfc1;
     justify-content:space-between;
+}
+
+.shade{
+    color: #cfcfc1;
+}
+
+.headstyle{
+    color: white;
+    font-size: 250%;
+}
+
+
+.contents{
+    margin-left: 20vw;
+}
+
+.drop{
+    margin-top: 12px;
+    margin-left: 2vw;
+    margin-right: 3vw;
+}
+
+
+.dropdown{
+    margin-left: 85vw;
+    display: inline;
+    position: relative;
+}
+
+.dropdown:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.col{
+    color: #000000;
 }
