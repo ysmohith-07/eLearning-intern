@@ -1,0 +1,17 @@
+.python{
+
+    min-height: 80%;
+}
+
+.cpcontent{
+    background-color: #947155;
+    color: #ffffff;
+    margin-right: 30vw;
+    margin-left: 20px;
+    border-radius: 10px;
+    /* justify-content:space-between; */
+}
+
+.selfalign{
+    margin-left: 80px;
+}

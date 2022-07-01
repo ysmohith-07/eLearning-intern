@@ -25,7 +25,7 @@
 .boxxed{
     text-align: center;
     align-items: center;
-    background-color:  #71685a;
+    background-color:  #947155;
     height: 5vh;
     width: 10vw;
     border: 15px;
@@ -42,7 +42,7 @@
 }
 
 .headbar{
-    background-color: #67512f;
+    background-color: #947155;
     color: #cfcfc1;
     justify-content:space-between;
 }
@@ -82,4 +82,9 @@
 
 .col{
     color: #000000;
+}
+
+
+.regalign{
+    align-items: center;
 }
