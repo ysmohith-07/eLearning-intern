@@ -15,3 +15,60 @@
 .selfalign{
     margin-left: 80px;
 }
+
+.boxes{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-rows: 1fr,1fr,1fr;
+    gap: 10px;
+}
+
+.gridimg{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background: palegoldenrod; */
+}
+
+.contwrite{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: #947155;
+}
+
+.writings{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 10;
+    margin-bottom: 10;
+    /* background: palevioletred; */
+}
+
+.alignn{
+    color: #ffffff;
+    margin-top: 10;
+    /* align-self: center;
+    align-items: center;
+    align-content: center; */
+    text-align: center;
+}
+
+.alignnnn{
+    color: #ffffff;
+    margin-top: 10;
+    /* align-self: center;
+    align-items: center;
+    align-content: center; */
+}
+
+.alignnnn:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+
