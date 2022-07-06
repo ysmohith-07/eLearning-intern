@@ -1,12 +1,13 @@
 <html>
     <head>
         <title>
-            My Account
-            
+            My Account 
         </title>
         <link rel="stylesheet" href="account.css">
+        
     </head>
     <body>
+        <script src="myaccount.js"></script>
         <div class="acc">
             <div class="acc1">
                 <img src="pexels-image.jpg" width="200">
@@ -14,11 +15,22 @@
             Lets have a look at your progress.
             </div>
             <div class="acc2">
-                Now here we can do the corresponding edits
+                <button id="detailsBtn1" onclick="details1()">Name</button><br>
+                <button id="detailsBtn2" onclick="details2()">Details</button><br>
+                Specific details<br>
+                Security and privacy<br>
             </div>
             <div class="acc3">
+                <p id="details1" class="invisible">
+                    This is related to details 1
+                </p>
+
+                <p id="details2" class="invisible">
+                    This is some random website
+                </p>
                 Welcome to the account section
             </div>
+            
         </div>
     </body>
 
