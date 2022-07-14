@@ -3,8 +3,8 @@
     color: #000000;
     background-color:  #cac9c9; 
     box-shadow: 0 10px 30px rgba(0, 0, 0,0.5);
-    min-height: 30vh;
-    width: 30vw;
+    min-height: 20vh;
+    width: 20vw;
     border: 15px;
     /* border-color: rgb(0, 0, 0); 
     border-style: double; */
@@ -12,6 +12,11 @@
     padding: 3px 35px;
     border-radius: 10px;
 }
+
+.imgsize{
+    max-height: fit-content;
+}
+
 .coubox:hover{
     transform: scale(1.1);
     transition: 0.3s;
