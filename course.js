@@ -2,17 +2,17 @@ let data = [{
     name:"Mohith",
     id:1,
     url:"https://media-cdn.tripadvisor.com/media/photo-s/17/a4/f3/65/img-20190427-184959-largejpg.jpg",
-    RollNo:108 
+    cost:108 
 },{
     name:"Rushik",
     id:2,
     url:"https://media-cdn.tripadvisor.com/media/photo-s/17/a4/f3/65/img-20190427-184959-largejpg.jpg",
-    RollNo:65
+    cost:65
 },{
     name:"Mahi",
     id:3,
     url:"https://media-cdn.tripadvisor.com/media/photo-s/17/a4/f3/65/img-20190427-184959-largejpg.jpg",
-    RollNo:91
+    cost:91
 }];
 
 // const container=document.querySelector('#containerp');
@@ -36,7 +36,7 @@ const content = `
     <button type="button" class="btn boxxed" data-toggle="modal" data-target="#exampleModal${res.id.toString()}">
     Enroll
 </button>
-<button class="btn boxxed mt-1">${res.RollNo}</button>
+<button class="btn boxxed mt-1">${res.cost}</button>
     </div>
 
 </div> 
@@ -70,7 +70,7 @@ document.querySelector('#containerp').innerHTML += content;
 
 // let object = {
 //     name:"Mohith",
-//     RollNo:108
+//      cost:108
 //
 
 // function add(item){
