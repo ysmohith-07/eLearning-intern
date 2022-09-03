@@ -10,6 +10,7 @@ window.onload = () => {
     for(let i=0;i<obj.length;i++){
         let box=document.createElement("p");
         box.textContent = obj[i][0];
+        box.classList.add("videosListItem");
         box.addEventListener("click", function() {
             document.getElementById("videoPlayer").setAttribute("src",obj[i][1]);
           });

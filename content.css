@@ -153,3 +153,10 @@ html{
     overflow-x:hidden;
     }
 
+.videosListItem{
+    text-decoration: underline;
+}
+
+.videosListItem:hover{
+    transform: scale(1.3);
+}

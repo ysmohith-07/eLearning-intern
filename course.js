@@ -66,6 +66,8 @@ const content = `
 // Append newyly created card element to the container
 document.querySelector('#containerp').innerHTML += content;
 });
+
+
 }
 
 // let object = {
