@@ -51,3 +51,66 @@
 } */
 
 
+.box{
+    border: solid green 10px;
+}
+.basicBox{
+    align-items: center;
+}
+
+.circle{
+    border-radius: 100%;
+}
+
+.inputText{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.basics{
+    width: 75%;
+    
+  }
+
+.paddingLeft{
+    padding-left: 15%;
+}
+
+.paraSelectors{
+    margin-bottom: 0;
+}
+
+.paraSelectors:hover{
+    background: rgb(104, 104, 104);
+    color: white;
+}
+
+.paraSelectors{
+    padding-left: 20px;
+}
+
+.paddingRemovers{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nameStyle{
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttonColor{
+    background-color: #947155!important;
+    border-color: #947155!important;
+}
+
+.buttonColor{
+    background-color: #947155!important;
+    border-color: #947155!important;
+}
