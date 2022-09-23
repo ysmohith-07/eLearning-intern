@@ -35,12 +35,15 @@
 // console.log("hi");
 
 personDetails = {
+    pic: "https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg",
     firstName: "sai mohith",
     lastName: "yerramsetti",
     email: "email@gmail.com"
 }
 
 window.addEventListener('load', (event) =>{
+    profilePhoto = document.getElementById("profilePhoto");
+    profilePhoto.setAttribute("src", personDetails.pic);
     editFirstName = document.getElementById("editFirstName");
     editFirstName.setAttribute("placeholder", personDetails.firstName);
     editLastName = document.getElementById("editLastName");

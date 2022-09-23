@@ -14,7 +14,6 @@
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: aqua;
-
 }
 
 .acc2{
@@ -52,7 +51,7 @@
 
 
 .box{
-    border: solid green 10px;
+    border: solid #947155 3px;
 }
 .basicBox{
     align-items: center;
